@@ -8,15 +8,15 @@ const projects = [
     category: "Кухня на заказ",
     location: "Светлый дуб · Керамика · Натуральные текстуры",
     year: "2024",
-    image: "https://cdn.poehali.dev/projects/494de8b9-7ff2-4de4-8592-5dc7609f9465/files/a1d4a361-30b0-421d-b782-d4e51905d019.jpg",
+    image: "https://cdn.poehali.dev/projects/494de8b9-7ff2-4de4-8592-5dc7609f9465/files/cf270a7d-075a-4400-a1eb-926a3acff932.jpg",
   },
   {
     id: 2,
-    title: "Тёмный японди",
+    title: "Зелёный японди",
     category: "Кухня на заказ",
-    location: "Антрацит · Латунь · Вабисаби",
+    location: "Глубокий зелёный · Дуб · Латунь",
     year: "2024",
-    image: "https://cdn.poehali.dev/projects/494de8b9-7ff2-4de4-8592-5dc7609f9465/files/2e911478-0fa6-4228-8b74-cf39820fcd35.jpg",
+    image: "https://cdn.poehali.dev/projects/494de8b9-7ff2-4de4-8592-5dc7609f9465/files/beeb8996-3078-40eb-b73a-ed509d7aa562.jpg",
   },
   {
     id: 3,
@@ -24,15 +24,15 @@ const projects = [
     category: "Кухня-гостиная",
     location: "Песочные тона · Остров · Открытая планировка",
     year: "2024",
-    image: "https://cdn.poehali.dev/projects/494de8b9-7ff2-4de4-8592-5dc7609f9465/files/ea1a92ee-0b83-4c6d-a8b5-7775c7cbb26f.jpg",
+    image: "https://cdn.poehali.dev/projects/494de8b9-7ff2-4de4-8592-5dc7609f9465/files/2d536a57-db6d-49e0-af11-79babf1aabab.jpg",
   },
   {
     id: 4,
     title: "Тёплый японди",
     category: "Кухня на заказ",
-    location: "Орех · Белый матт · Натуральный камень",
+    location: "Орех · Белый матт · Терракота",
     year: "2024",
-    image: "https://cdn.poehali.dev/projects/494de8b9-7ff2-4de4-8592-5dc7609f9465/files/1d9bcd76-8cdc-4d51-9f78-10ed4c77a249.jpg",
+    image: "https://cdn.poehali.dev/projects/494de8b9-7ff2-4de4-8592-5dc7609f9465/files/4e668c86-bd30-4552-bb13-fc9bdd164784.jpg",
   },
 ]
 
