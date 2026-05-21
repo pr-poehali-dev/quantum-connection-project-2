@@ -1,30 +1,30 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
+import { Ruler, Truck, Wrench, Palette } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
 
 const expertiseAreas = [
   {
-    title: "Жилая архитектура",
-    description: "Создаем дома, которые сочетают красоту с комфортом, где каждое пространство служит и форме, и функции.",
-    icon: Home,
+    title: "Замер и проектирование",
+    description: "Приедем, замерим и разработаем 3D-проект вашей будущей кухни. Вы увидите результат ещё до начала производства.",
+    icon: Ruler,
   },
   {
-    title: "Коммерческие объекты",
+    title: "Собственное производство",
     description:
-      "Проектируем рабочие пространства, которые вдохновляют на продуктивность и отражают ценности передовых организаций.",
-    icon: Building,
+      "Изготавливаем кухни на своём заводе — полный контроль качества, точные сроки и цены без накруток посредников.",
+    icon: Wrench,
   },
   {
-    title: "Дизайн интерьеров",
+    title: "Подбор материалов",
     description:
-      "Создаем интерьеры, которые гармонируют с архитектурной оболочкой, формируя целостный пространственный опыт.",
-    icon: Armchair,
+      "Помогаем выбрать фасады, столешницы и фурнитуру под ваш стиль и бюджет. Работаем с проверенными поставщиками.",
+    icon: Palette,
   },
   {
-    title: "Градостроительство",
+    title: "Доставка и монтаж",
     description:
-      "Формируем сообщества через продуманную интеграцию общественных пространств, зданий и природных элементов.",
-    icon: Trees,
+      "Доставим и установим кухню «под ключ». Наши монтажники аккуратно соберут всё до последнего элемента.",
+    icon: Truck,
   },
 ]
 
@@ -59,12 +59,12 @@ export function Expertise() {
         <div className="max-w-3xl mb-20">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши услуги</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Экспертиза</HighlightedText>, отточенная
+            <HighlightedText>Всё включено</HighlightedText> — от
             <br />
-            практикой
+            замера до монтажа
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Каждый проект опирается на десятилетия совокупного опыта, создавая архитектуру, которая одновременно инновационна и вневременна.
+            Мы берём на себя весь процесс: проектируем, производим и устанавливаем. Вам остаётся только выбрать стиль и наслаждаться результатом.
           </p>
         </div>
 
